@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.PointLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="routineentry.routineentryViewController">
+   <children>
+      <ListView fx:id="lstCname" editable="true" layoutX="14.0" layoutY="14.0" onMouseClicked="#doselection" prefHeight="420.0" prefWidth="200.0" />
+      <Button layoutX="246.0" layoutY="105.0" mnemonicParsing="false" onAction="#doFetch" text="Fetch" />
+      <TextArea fx:id="txtcqty" layoutX="298.0" layoutY="207.0" prefHeight="10.0" prefWidth="60.0" />
+      <TextArea fx:id="txtbqty" layoutX="398.0" layoutY="206.0" prefHeight="10.0" prefWidth="60.0" />
+      <Text layoutX="291.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cow qty" />
+      <Text layoutX="399.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="buffalo qty" />
+      <Label fx:id="lblcqty" layoutX="316.0" layoutY="273.0" text="Label" />
+      <Label fx:id="lblbqty" layoutX="416.0" layoutY="273.0" text="Label" />
+      <DatePicker fx:id="dtpday" layoutX="281.0" layoutY="320.0" />
+      <Button layoutX="378.0" layoutY="398.0" mnemonicParsing="false" onAction="#dosave" text="Save" />
+      <Button layoutX="40.0" layoutY="449.0" mnemonicParsing="false" onAction="#dodeleteothers" text="Delete others" />
+      <Text layoutX="283.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of variation :" />
+      <PointLight color="CHARTREUSE" layoutX="550.0" layoutY="38.0" lightOn="true" />
+      <ImageView fitHeight="117.0" fitWidth="219.0" layoutX="316.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330176230886250.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard.DashboardViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="708.0" layoutX="16.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" width="731.0">
+         <fill>
+            <LinearGradient endX="0.4878048780487805" endY="0.5560975609756097" proportional="false" startX="0.6926829268292682" startY="0.3804878048780489">
+               <stops>
+                  <Stop color="#2195ff61" />
+                  <Stop color="#21baff59" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="48.0" fitWidth="188.0" layoutX="57.0" layoutY="247.0" onMouseClicked="#opencustomerentry" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330140732413921.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="204.0" layoutX="280.0" layoutY="247.0" onMouseClicked="#openroutineentry" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330142528979986.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="158.0" layoutX="572.0" layoutY="242.0" onMouseClicked="#openbilling" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330142570266155%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="137.0" layoutX="50.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330143345119380.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="121.0" layoutX="317.0" layoutY="472.0" onMouseClicked="#dobillingconsole" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330144385671289.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="129.0" layoutX="527.0" layoutY="472.0" onMouseClicked="#dovariationlog" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330144439421229%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="157.0" layoutX="80.0" layoutY="488.0" onMouseClicked="#dopaymentcollection" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330144289679239.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="32.0" layoutY="558.0" prefHeight="3.0" prefWidth="687.0" />
+      <ImageView fitHeight="63.0" fitWidth="106.0" layoutX="323.0" layoutY="633.0" onMouseClicked="#doincomerecord" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330145097843053.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="156.0" layoutX="22.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="370.0" layoutX="277.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330145369978758.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="119.0" layoutX="93.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@record-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="119.0" layoutX="307.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@entry-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="572.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@10-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="121.0" layoutX="74.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@main_fees-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="134.0" fitWidth="129.0" layoutX="296.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Billing_invoice_receipt-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="136.0" layoutX="522.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graphic-chart-evolution-variation-currency-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="95.0" layoutX="328.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Money._Income_Business-3-128.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
